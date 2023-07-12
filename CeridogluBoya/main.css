@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(4, 9, 30, 0.7) height: 5rem;
+}
+
+.logo {
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+}
+
+li {
+    padding: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: pink;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Main */
+
+.text-box {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Products */
+
+.text-box2 h1 {
+    color: rgb(241, 9, 9);
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 45px;
+    text-align: center;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    height: 1000px;
+    /* background-color: blue; */
+}
+
+.boya {
+    text-align: center;
+    width: 350px;
+    /* height: 200px; */
+    border: 1px solid rgb(4, 187, 253);
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    margin-top: 3rem;
+    width: 130px;
+    height: 40px;
+    /* background-color: rgb(171, 235, 114); */
+    background-color: #336ea2;
+
+    border-radius: 1rem;
+    border: none;
+}
+
+button:hover {
+    color: #336ea2;
+    background: white;
+    border: 0.5px solid #336ea2;
+}
+
+/* Who are us? */
+.navbar-2 {
+    background-color: aqua;
+    width: 100%;
+}
+
+.navbar-2 h1 {
+    padding-left: 15px;
+}
+
+.comment {
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ceodescription {
+    text-align: center;
+}
+
+.ceoimg {
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+}
+
+/* Contact */
+
+.contact{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.information label{
+    display: block;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
+
+.button{
+width: 100%;
+text-align: center;
+}
+
+.laststep{
+    height: 100px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
